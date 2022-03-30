@@ -1,0 +1,188 @@
+html {
+    background-image: url("Apple background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#header {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background-color: #EEEEEE;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+
+#header-img {
+    display: inline;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-link {
+    margin: 10px;
+    padding: 30px;
+    font-size: 17px;
+    font-weight:500;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#form {
+    text-align: center;
+}
+
+
+#form-prompt {
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#email {
+    width: 420px;
+    height: 24px;
+    font-size: 15px;
+}
+
+#submit {
+    background-color: #FFD700;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 6px;
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#wrapper {
+    margin-top: 60px;
+    margin-left: 380px;
+    padding: 10px;
+    text-align: left;
+}
+
+.subtext {
+    margin-top: -8px;
+    margin-left: 64px;
+    font-family: 'EB Garamond', serif;
+}
+
+
+#youtube-vid {
+    margin-top: 120px;
+    text-align: center;
+}
+
+#packages{
+    display: inline-flex;
+    width: 100%;
+    height: 320px;
+    flex-basis: 33%;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    justify-content: center;
+    text-align: center;
+    margin-top: 250px;
+    padding: 10px;
+    gap: 16px;
+}
+
+#button {
+    background-color: #FFD700;
+    border: none;
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.info {
+    margin: 4px;
+    padding: 4px;
+    font-family: 'EB Garamond', serif;
+}
+
+#Macbook-air {
+    border: 1px solid black;
+    margin: 5px;
+
+
+}
+
+#Macbook-pro {
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+#Macbook {
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+h2 {
+    background: #212121;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+}
+
+.price {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#footer {
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+#footer a {
+    text-decoration: none;
+    margin-top: 15px;
+    color: black;
+}
+
+#copyright {
+    margin-right: -40px;
+}
+
+.material-icons {
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
+
+h1 {
+    margin-top: 20px;
+}
+
